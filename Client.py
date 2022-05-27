@@ -55,7 +55,6 @@ async def message(data):
 def catch_all(event, data):
     pass
 
-
 @sio.on('*')
 async def catch_all(event, data):
     pass
